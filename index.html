@@ -13,7 +13,7 @@
 
     <nav class="navbar navbar-expand-md navbar-light">
         <!-- Navbar content -->
-       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu1"> <span class="navbar-toggler-icon"></span></button>
+       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"> <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navmenu">
             <div class="container"> <button class="btn btn-primary rounded-pill" type="submit"><i class="bi bi-house-door rounded-circle"></i> Home</button></div>
             <div class="container-ul">
@@ -27,24 +27,31 @@
             
         </div>
         
+        
     </nav>
 
-    <div class="collapse navbar-collapse" id="navmenu1">
-        <img src="images/Logo.png" alt="" class="rounded-sm px-2">
+    <div class="offcanvas offcanvas-start" id="offcanvasExample">
+        <img src="images/Logo.png" alt="" class="rounded-sm px-4 py-4">
         <hr class="horizontalrulenav">
-        <div class="container-fluid"> <button class="btn btn-primary" type="submit"><i class="bi bi-house-door rounded-circle"></i> Home</button></div>
-        <div class="container-ul">
-            <ul class="navbar-nav md-auto flex px-4">
-                <li class="nav-item"><a href="#about" class="nav-link"><text class="nav-item-text">About</text></a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link"><text class="nav-item-text">Contact</text></a></li>
-                <li class="nav-item"><a href="#pricing" class="nav-link"><text class="nav-item-text">Pricing</text></a></li>
-                <li class="nav-item"><a href="#Account" class="nav-link"><text class="nav-item-text">Account</text><span><i class="bi bi-person-circle rounded-circle"></i></span></a></li>
-            </ul>
-        </div>
+        <offcanvas class="offcanvas-body">
+            <div class="container-ul">
+                <ul class="navbar-nav md-auto flex px-2">
+                    <button class="btn btn-primary" type="submit"><i class="bi bi-house-door rounded-circle"></i> Home</button>
+                    <li class="nav-item"><a href="#about" class="nav-link text-center"><text class="nav-item-text">About</text></a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link text-center"><text class="nav-item-text">Contact</text></a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link text-center"><text class="nav-item-text">Pricing</text></a></li>
+                    <li class="nav-item"><a href="#Account" class="nav-link text-center"><text class="nav-item-text">Account</text><span><i class="bi bi-person-circle rounded-circle"></i></span></a></li>
+                </ul>
+            </div>
+        </offcanvas>
+       
+       
         
     </div>
+
     
-</nav>
+    
+
 
     
 
