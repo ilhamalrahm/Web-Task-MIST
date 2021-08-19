@@ -43,18 +43,22 @@ hr.horizontalrulenav {
 }
 
 
-
-
-.triptext {
-    color: white;
-
+section.firsthalf {
+    background-color: #270E2D !important;
+    
 }
+
 div.trip {
     padding-top:10%;
     max-width: 100%;
     padding-left: 12%;
     padding-right: 8%;
 }
+.triptext {
+    color: white;
+
+}
+
 div.container-try {
     padding:0;
 }
@@ -68,10 +72,7 @@ img.rounded-lg {
 
 
 
-section.firsthalf {
-    background-color: #270E2D !important;
-    
-}
+
 section.secondhalf {
     background-color: #BD00FF!important;
 }
@@ -93,11 +94,7 @@ h3.happyhead {
 div.card {
     background-color: #270E2D !important;
 }
-#jonsnow {
-    object-fit: contain;
-    
 
-}
 hr.horizontalrule {
     border: 1px solid;
     padding-top: 1px;
