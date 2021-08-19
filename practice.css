@@ -27,6 +27,9 @@ div.offcanvas {
     background-color: #270E2D;
 
 }
+button.btn-close {
+    margin-left: 20%;
+}
 
 img.rounded-sm {
     max-width: 70%;
