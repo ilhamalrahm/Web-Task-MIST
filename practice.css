@@ -29,12 +29,13 @@ div.offcanvas {
 
 }
 button.btn-close {
-    margin-left: 20%;
+    margin-left:5%;
+    margin-top: 5%;
 }
 
 img.rounded-sm {
-    max-width: 70%;
-    max-height: 70%;
+    max-width: 90%;
+    max-height: 90%;
 }
 hr.horizontalrulenav {
     border: 2px solid;
