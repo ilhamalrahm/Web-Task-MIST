@@ -63,6 +63,14 @@ div.container-try {
     padding:0;
 }
 
+#spanalert{
+    visibility:hidden;
+    background-color: tomato;
+}
+strong.alert {
+    color: white;
+}
+
 img.rounded-lg {
     margin-bottom: 5%;
     margin-right: 0%;
