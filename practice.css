@@ -6,10 +6,7 @@ body {
 nav {
     background-color:#270E2D;
 }
-text.nav-item-text {
-    text-shadow:1px solid #BD00FF;
 
-}
 div.home {
     padding-left: 10%;
 }
@@ -22,15 +19,24 @@ div.navss {
     max-width: 50%;
     margin-left: 0.25%;
 }
+
 text.nav-item-text{
     color: white;
+    border-bottom: dotted #BD00FF;
 
 
 }
+text.nav-item-text:hover {
+    color: #BD00FF;
+}
+
 div.offcanvas {
     background-color: #270E2D;
     max-width: 75%;
 
+}
+text.nav-item-textoff {
+    color: white;
 }
 button.btn-close {
     margin-left:5%;
