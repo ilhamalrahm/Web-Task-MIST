@@ -18,6 +18,10 @@ button.btn-primary{
     background-color: #BD00FF;
     border-color: #BD00FF ;
 }
+div.navss {
+    max-width: 50%;
+    margin-left: 0.25%;
+}
 text.nav-item-text{
     color: white;
 
