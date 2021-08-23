@@ -29,6 +29,9 @@ text.nav-item-text{
 text.nav-item-text:hover {
     color: #BD00FF;
 }
+button.btn-dark {
+    box-shadow: white;
+}
 
 div.offcanvas {
     background-color: #270E2D;
