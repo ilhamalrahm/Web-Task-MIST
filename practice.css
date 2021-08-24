@@ -60,13 +60,90 @@ section.firsthalf {
     background-color: #270E2D !important;
     
 }
-
-div.trip {
+img.rounded-lg {
     padding-top:10%;
     max-width: 100%;
     padding-left: 12%;
     padding-right: 8%;
 }
+
+div.trip {
+    padding-top:3%;
+    max-width: 100%;
+    padding-left: 12%;
+    padding-right: 8%;
+}
+
+div.parabox {
+    position: relative;
+    max-width: 60%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+}
+div.long{
+    position: relative;
+    background-color: #BD00FF;
+    width: 6rem;
+    height: 1rem;
+    top:-1.0rem;
+    left:-2.5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+div.short {
+    position: absolute;
+    background-color: #BD00FF;
+    width: 2rem;
+    height: 1rem;
+    top:-0.5rem;
+    left: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+}
+div.left{
+    position: absolute;
+    background-color: #BD00FF;
+    top: -0.5rem;
+    width: 1rem;
+    height: 5rem;
+    left: -3.0rem;
+}
+div.textpart {
+    padding:0.2rem;
+
+    max-width: 100%;
+}
+
+div.bottomLong {
+    position: absolute;
+    background-color:#BD00FF;
+    bottom: -2.0em;
+    right: 1rem;
+    width: 6rem;
+    height: 1rem;
+}
+div.bottomshort {
+    position: absolute;
+    background-color: #BD00FF;
+    width: 2rem;
+    height: 1rem;
+    bottom: -3.0em;
+    right: 8rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+
+}
+div.right {
+    position: absolute;
+    background-color: #BD00FF;
+    bottom: -2.0rem;
+    width: 1rem;
+    height: 5rem;
+    right:0rem;
+
+}
+
 .triptext {
     color: white;
 

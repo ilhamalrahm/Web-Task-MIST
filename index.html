@@ -42,7 +42,7 @@
                     <li class="nav-item"><a href="#about" class="nav-link text-center"><text class="nav-item-textoff">About</text></a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link text-center"><text class="nav-item-textoff">Contact</text></a></li>
                     <li class="nav-item"><a href="#pricing" class="nav-link text-center"><text class="nav-item-textoff">Pricing</text></a></li>
-                    <li class="nav-item"><a href="#Account" class="nav-link text-center"><text class="nav-item-textoff">Account</text><span class="px-0"><i class="bi bi-person-circle rounded-circle"></i></span></a></li>
+                    <li class="nav-item"><a href="#Account" class="nav-link text-center"><text class="nav-item-textoff">Account</text><span class="px-0"><i class="bi bi-person-circle bg-dark"></i></span></a></li>
                 </ul>
             </div>
         </div>
@@ -57,14 +57,28 @@
      <!--main body-->
 <section class="firsthalf">
     <div class="container-l">
-        <div class='trip'>
+        
 
             <img src="images/Logo.png" alt="" class="rounded-lg">
-            <p class='trippara'>
-                <h3 class="triptext">Got a long trip planned but dont know <br>how to organise?</h3>
-                <br><br>
-                <h4 class="triptext"> Leave the planning to us while you focus on the next trip</h4>
-            </p>
+            <div class='trip'>
+                <div class="parabox relative p-2">
+                    <div class="long d-md-block d-none"></div>
+                    <div class="short d-md-block d-none"></div>
+                    <div class="bottomLong d-md-block d-none"></div>
+                    <div class="bottomshort d-md-block d-none"></div>
+                    <div class="left d-md-block d-none"></div>
+                    <div class="right d-md-block d-none"></div>
+
+                    <div class="texpart">
+                        <h3 class="triptext d-md">Got a long trip planned but dont know <br>how to organise?</h3>
+                        <h4 class="triptext d-md"> Leave the planning to us while you focus on the next trip</h4>
+                    </div>
+
+
+                    
+                  
+            </div>
+            
             <div class="container-try mb-5"> <button class="btn btn-primary rounded-pill" onclick="alertCall()"><i class="bi bi-arrow-right"></i> TRY FOR FREE</button> <button class="span alert px-0 py-1 my-2" id="spanalert" onclick="alertClose()"><strong class="alert">Sorry: Content not available!!  </strong><i class="bi bi-x-lg px-1 text-white"></i></button></div>
             
         </div>
