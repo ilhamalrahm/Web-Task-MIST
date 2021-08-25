@@ -36,8 +36,8 @@ text.nav-item-text{
 text.nav-item-text:hover {
     color: #BD00FF;
 }
-button.btn-dark {
-    box-shadow: white;
+button.btn-dark:hover {
+    box-shadow:0px 1px 1px 1px #c389d8;
 }
 
 div.offcanvas {
